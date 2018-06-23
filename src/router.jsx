@@ -52,8 +52,5 @@ function RouterConfig({
   );
 }
 
-RouterConfig.propTypes = {
-  history: PropTypes.object.isRequired
-};
 
 export default RouterConfig;

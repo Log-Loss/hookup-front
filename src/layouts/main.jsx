@@ -29,10 +29,4 @@ function Main(props) {
     </Layout>
   );
 }
-
-Main.propTypes = {
-  children: PropTypes.element.isRequired,
-  location: PropTypes.object.isRequired
-};
-
 export default connect()(Main);
